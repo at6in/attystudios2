@@ -1,0 +1,33 @@
+<form action="/action_page.php">
+  <div class="container">
+    <div align="center">
+        
+        <label><b>Email</b></label>
+        <div style="float:center">
+            <input type="text" placeholder="Enter Email" name="uname" required>
+        </div>
+        <label><b>Password</b></label>
+        <div style="float:center">
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+        <div style="float:center">
+            <button type="submit">Login</button>
+        </div>
+        <div style="float:center">
+            <input type="checkbox" checked="checked"> Remember me
+        </div>
+      </div>
+      <div class="forgot_password_sign_in">
+        <div style="float:center">
+            <span class="psw"><a href="#">Forgot Password?</a></span>
+        </div>   
+      </div>
+
+      <div class="sign_in_to_sign_up">
+          <%= link_to "Sign Up", :controller => "account", :action => "sign_up" %>
+      </div>
+        
+    </div>
+      
+  </div>
+</form>

@@ -1,0 +1,74 @@
+<% provide(:title, 'Sign up') %>
+
+
+
+<div class="sign_up">
+    <div class="title">
+        <div align="center">
+            <p>Sign Up</p>
+        </div>
+    </div>
+    <div class="form_fields">
+        <%= form_for(@user) do |f| %>
+        <%= render 'shared/error_messages' %> 
+            <div class="name">
+                <div align="center">
+                    <%= f.label :name %>
+                </div>
+                <br />
+                <div class="textfield">
+                    <div align="center">
+                        <%= f.text_field :name, class: 'form-control' %>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <div class="email">
+                <br />
+                <div align="center">
+                    <%= f.label :email %>
+                </div>
+                <br />
+                <div class="textfield">
+                    <div align="center">
+                        <%= f.email_field :email, class: 'form-control' %>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <div class="password">
+                <br />
+                <div align="center">
+                    <%= f.label :password %>
+                </div>
+                <br />
+                <div class="textfield">
+                    <div align="center">
+                        <%= f.password_field :password, class: 'form-control' %>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <div class="password_confirmation">
+                <br />
+                <div align="center">
+                    <%= f.label :password_confirmation, "Confirmation" %>
+                </div>
+                <br />
+                <div class="textfield">
+                     <div align="center">
+                        <%= f.password_field :password_confirmation, class: 'form-control' %>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <div align="center">
+                <br />
+                <div class="submit">
+                    <%= f.submit "Create my account", class: "btn btn-primary" %>
+                </div>
+                <br />
+            </div>
+        <% end %>
+    </div>
+</div>

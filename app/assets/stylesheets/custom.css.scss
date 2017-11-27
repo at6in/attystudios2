@@ -1,0 +1,971 @@
+/* hyperlinks */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+    text-decoration: none;
+}
+
+a:active {
+    color: darkgray;
+    text-decoration: none;
+}
+/* header */
+
+#header {
+    .left {
+        font-family: Charter, times;
+        font-size: 15px;
+    }
+    .center {
+        position: relative;
+        top: 30px;
+        font-family: Charter, times;
+        font-size: 30px;
+    }
+    .right {
+        font-family: Charter, times;
+        font-size: 15px;
+    }
+    .mainlinks {
+        position: relative;
+        top: 60px;
+        font-family: Charter, times;
+        font-size: 17px;
+    }
+    padding-bottom: 80px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    font-family: Charter, times;
+    font-size: 15px;
+    
+}
+
+/* homepage */
+
+.homepage {
+    position: relative;
+    .jumbotron {
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 850px;
+        height: 300px;
+        .display-3{
+            font-size: 40px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+          font-size: 15px;
+          .my-4 {
+              font-size: 15px;
+          }
+        }
+    }
+    .jumbotron2 {
+        float: left;
+        position: relative;
+        left: 288px;
+        top: 25px;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 263.33px;
+        height: 150px;
+        .display-3{
+            font-size: 20px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .jumbotron3 {
+        a {
+            text-align: middle;
+        }
+        position: relative;
+        top: 5px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 263.33px;
+        height: 150px;
+        .display-3{
+            font-size: 20px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .jumbotron4 {
+        position: absolute;
+        left: 875px;
+        top: 325px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 263.33px;
+        height: 150px;
+        .display-3{
+            font-size: 20px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .shopmen {
+        position: relative;
+        top: 15px;
+        left: 288px;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        font-size: 20px;
+        width: 410px;
+        height: 500px;
+    }
+    .shopwomen {
+        position: relative;
+        top: 35px;
+        left: -288px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        font-size: 20px;
+        width: 410px;
+        height: 500px;
+    }
+    .shopbrand {
+        position: relative;
+        top: 545px;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        font-size: 20px;
+        width: 850px;
+        height: 400px;
+    }
+}
+
+/* shop */
+
+#shop_sidebar {
+    position: relative;
+    top: 70px;
+    background-color: none;
+    font-family: "Charter", Times, serif;
+    font-size: 14px;
+}
+
+.shop_items {
+    .item1 {
+        float: left;
+        position: absolute;
+        top: 218px;
+        left: 296px;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        } 
+    }
+    .item2 {
+        position: absolute;
+        top: 218px;
+        left: 516px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+            font-size: 10px;
+        }
+    }
+    .item3 {
+        position: absolute;
+        left: 736px;
+        top: 218px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .item4 {
+        position: absolute;
+        top: 218px;
+        left: 956px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .item5 {
+       float: left;
+        position: absolute;
+        left: 296px;
+        top: 488px;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        } 
+    }
+    .item6 {
+        position: absolute;
+        top: 488px;
+        left: 516px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .item7 {
+        position: absolute;
+        left: 736px;
+        top: 488px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .item8 {
+        position: absolute;
+        left: 956px;
+        top: 488px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .item9 {
+        float: left;
+        position: absolute;
+        left: 295px;
+        top: 758px;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        } 
+    }
+    .item10 {
+        position: absolute;
+        top: 758px;
+        left: 516px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .item11 {
+        position: absolute;
+        left: 736px;
+        top: 758px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .item12 {
+        position: absolute;
+        left: 956px;
+        top: 758px;
+        top: px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .item13 {
+        float: left;
+        position: absolute;
+        left: 296px;
+        top: 1028px;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        } 
+    }
+    .item14 {
+        position: absolute;
+        top: 1028px;
+        left: 516px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .item15 {
+        position: absolute;
+        left: 736px;
+        top: 1028px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .item16 {
+        position: absolute;
+        left: 956px;
+        top: 1028px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 200px;
+        height: 250px;
+        .display-3{
+            font-size: 10px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+}
+
+/* explore */
+
+/* lookbooks */
+
+.lookbooks {
+    .lookbook1 {
+        position: absolute;
+        left: 300px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 850px;
+        height: 300px;
+        .display-3{
+            font-size: 15px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+          font-size: 15px;
+          .my-4 {
+              font-size: 15px;
+          }
+        }
+    }
+    .lookbook2 {
+        position: absolute;
+        top: 550px;
+        left: 300px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 850px;
+        height: 300px;
+        .display-3{
+            font-size: 15px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+          font-size: 15px;
+          .my-4 {
+              font-size: 15px;
+          }
+        }
+    }
+    .lookbook3 {
+        position: absolute;
+        top: 880px;
+        left: 300px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 850px;
+        height: 300px;
+        .display-3{
+            font-size: 15px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+          font-size: 15px;
+          .my-4 {
+              font-size: 15px;
+          }
+        }
+    }
+}
+
+#explore_sidebar {
+    position: relative;
+    top: 70px;
+    background-color: none;
+    font-family: "Charter", Times, serif;
+    font-size: 14px;
+}
+
+/* film */
+
+.films {
+    .film1 {
+        position: absolute;
+        left: 300px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 850px;
+        height: 300px;
+        .display-3{
+            font-size: 15px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+          font-size: 15px;
+          .my-4 {
+              font-size: 15px;
+          }
+        }
+    }
+    .film2 {
+        position: absolute;
+        top: 550px;
+        left: 300px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 850px;
+        height: 300px;
+        .display-3{
+            font-size: 15px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+          font-size: 15px;
+          .my-4 {
+              font-size: 15px;
+          }
+        }
+    }
+    .film3 {
+        position: absolute;
+        top: 880px;
+        left: 300px;
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 850px;
+        height: 300px;
+        .display-3{
+            font-size: 15px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+          font-size: 15px;
+          .my-4 {
+              font-size: 15px;
+          }
+        }
+    }
+}
+
+/* atty talk */
+
+.blog {
+    position: relative;
+    top: -30px;
+    .jumbotron {
+        float: center;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 850px;
+        height: 300px;
+        .display-3{
+            font-size: 40px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+          font-size: 15px;
+          .my-4 {
+              font-size: 15px;
+          }
+        }
+    }
+    .jumbotron2 {
+        float: left;
+        position: relative;
+        left: 288px;
+        top: 25px;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 410px;
+        height: 225px;
+        .display-3{
+            font-size: 20px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .jumbotron4 {
+        position: absolute;
+        left: 728px;
+        top: 325px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 410px;
+        height: 225px;
+        .display-3{
+            font-size: 20px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .jumbotron5 {
+        float: left;
+        position: relative;
+        left: -122px;
+        top: 280px;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 410px;
+        height: 225px;
+        .display-3{
+            font-size: 20px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+    .jumbotron6 {
+        position: absolute;
+        left: 728px;
+        top: 580px;
+        float: right;
+        background-color: lightgray;
+        font-family: "Charter", Times, serif;
+        width: 410px;
+        height: 225px;
+        .display-3{
+            font-size: 20px;
+        }
+        .lead {
+            font-size: 10px;
+        }
+        .subtitle_button {
+          font-size: 10px;
+          .my-4 {
+              font-size: 10px;
+          }
+        }
+    }
+}
+
+/* brands */
+
+#brands_sidebar {
+    position: relative;
+    top: 55px;
+}
+
+/* sign up */
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+/* sign in */
+
+/* Bordered form */
+form {
+    border: 3px ;
+    border-width: 50px;
+    
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+    
+}
+
+.forgot_password_sign_in {
+    position: relative;
+    top: -20px;
+}
+
+.sign_in_to_sign_up {
+    float: left;
+    position: relative;
+    top: -5px;
+}
+
+/* contact us */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 300px; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px ; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}

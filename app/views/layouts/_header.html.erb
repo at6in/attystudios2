@@ -1,0 +1,29 @@
+<div id="header">
+    <div style="float:left">
+        <div class="left">
+            <%= link_to "About", :controller => "about", :action => "about" %>
+            <%= link_to "Atty Talk", :controller => "atty_talk", :action => "blog" %>
+            <%= link_to "Sell", :controller => "sell", :action => "sell" %>
+        </div>
+    </div>
+    <div style="float:right">
+        <div class="right">
+            <%= link_to "Wishlist", :controller => "wishlist", :action => "wishlist" %>
+            <%= link_to "Bag", :controller => "bag", :action => "bag" %>
+            <%= link_to "Sign in", :controller => "account", :action => "sign_in" %> <!-- might need to fixed to user class -->
+        </div>
+    </div>
+    <div class="center">
+        <div align="center">
+            <%= link_to "Atty Studios", root_path %>
+        </div>
+    </div>
+        <div class="mainlinks">
+            <div align="center">
+            <%= link_to "Home", root_path %>
+            <%= link_to "Shop", :controller => "shop", :action => "shop" %>
+            <%= link_to "Explore", :controller => "explore", :action => "explore" %>
+            <%= link_to "Brands", :controller => "brands", :action => "brands" %>
+        </div>
+    </div>
+</div>
